@@ -1,7 +1,7 @@
-#Introduction
+### Introduction
 The project contains unit tests and your goal is to make sure they all pass.
 
-#Requirements
+### Requirements
 1. Customer table with 3 required columns:
 name, phone number and address
 
