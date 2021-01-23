@@ -1,7 +1,7 @@
-Introduction
+#Introduction
 The project contains unit tests and your goal is to make sure they all pass.
 
-Requirements
+#Requirements
 1. Customer table with 3 required columns:
 name, phone number and address
 
@@ -11,12 +11,12 @@ product name, price, shipping date
 3. Create a one to many relation between customers and orders
 
 4. Create API with the following operations:
-Get customers list
-Get a customer with related orders
-Add a new customer
-Add a new order to the existing customer
-Update a customer
-Soft delete a customer
+* Get customers list
+* Get a customer with related orders
+* Add a new customer
+* Add a new order to the existing customer
+* Update a customer
+* Soft delete a customer
 
 * Access to each endpoint requires authentication via an API token which can be done in the custom middleware and no need to implement the user authentication.
 * Api responses should follow restful api best practices.
