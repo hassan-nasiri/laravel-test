@@ -18,7 +18,8 @@ product name, price, shipping date
 * Update a customer
 * Soft delete a customer
 
-* Access to each endpoint requires authentication via an API token which can be done in the custom middleware and no need to implement the user authentication.
+
+Access to each endpoint requires authentication via an API token which can be done in the custom middleware and no need to implement the user authentication.
 * Api responses should follow restful api best practices.
 
 In case of validation errors, the API should respond with a default error list from the Laravel framework (and a 422 HTTP code). The API should be protected with a rate liming mechanism.
